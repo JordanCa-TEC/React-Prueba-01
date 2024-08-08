@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+/*--------------*/
+
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el componente Contador */
+.Contador {
+  margin: 20px 0;
+}
+
+.Contador p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.Contador button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Contador button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el componente ListaDeTareas */
+.ListaDeTareas {
+  text-align: left;
+}
+
+.ListaDeTareas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ListaDeTareas li {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Estilos para el componente AgregarTarea */
+.AgregarTarea {
+  margin-top: 20px;
+}
+
+.AgregarTarea form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AgregarTarea input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AgregarTarea button {
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AgregarTarea button:hover {
+  background-color: #218838;
+}
+
